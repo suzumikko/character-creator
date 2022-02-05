@@ -36,3 +36,33 @@
 .controlColumn {
 	width: 50%;
 }
+
+@media (max-width: 600px) {
+	.characterEditor {
+		position: relative;
+	}
+
+	.maxWidthWrapper {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.characterWrapper {
+		position: static;
+		width: 100%;
+	}
+
+	.controlColumn {
+		overflow-x: scroll;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 18%;
+		display: flex;
+	}
+}
