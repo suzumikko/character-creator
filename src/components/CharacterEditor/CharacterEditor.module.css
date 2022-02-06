@@ -3,9 +3,6 @@
 	padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-}
-
 .header {
 	padding-bottom: 64px;
 	width: 65%;
@@ -31,6 +28,7 @@
 	bottom: 5%;
 	width: 35%;
 	min-height: 500px;
+	z-index: -1;
 }
 
 .controlColumn {
@@ -52,7 +50,8 @@
 	}
 
 	.characterWrapper {
-		position: static;
+		position: relative;
+		left: 0;
 		width: 100%;
 	}
 

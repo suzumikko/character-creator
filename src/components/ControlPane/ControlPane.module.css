@@ -10,8 +10,6 @@
     to deal with it yet!
   */
 	margin-bottom: 32px;
-	overflow-x: auto;
-	white-space: nowrap;
 }
 
 .title {
@@ -31,5 +29,6 @@
 	.controlPane {
 		min-width: 80vw;
 		margin-left: 16px;
+		margin-bottom: 0;
 	}
 }
